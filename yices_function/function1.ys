@@ -1,0 +1,13 @@
+(define var_0::int)
+(assert (= var_0 2))
+(define var_1::int)
+
+(define increment::(-> int int) (lambda (x::int) (+ x 1)))
+
+(assert (= (increment var_0) var_1))
+
+;(assert (>= var_1 2))
+
+;(ef-solve)
+(check)
+(show-model)

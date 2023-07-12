@@ -1,3 +1,5 @@
 yices_example
 
 The purpose of this repository is to provide some references for my use of Yices. 
+
+We use yices 2.6.4 in our example. Please run /usr/bin/yices <input-file> to test.
